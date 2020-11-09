@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.item2').slick({
         slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToScroll: 5,
         fade: true,
         asNavFor: '.item1'
     });
