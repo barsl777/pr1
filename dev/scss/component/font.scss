@@ -1,0 +1,11 @@
+@import "mixins";
+@include font-face(Geometria,   '../fonts/geometria/Geometria',             400, normal, ttf eot woff woff2 svg);
+@include font-face(Geometria,  '../fonts/geometria/Geometria-ExtraBold',    800,    normal, ttf eot woff woff2 svg);
+@include font-face(Geometria,  '../fonts/geometria/Geometria-ExtraLight',   200, normal, ttf eot woff woff2 svg);
+@include font-face(Geometria, '../fonts/geometria/Geometria-Heavy',         900,   normal, ttf eot woff woff2 svg);
+@include font-face(Geometria, '../fonts/geometria/Geometria-Medium',        500,   normal, ttf eot woff woff2 svg);
+@include font-face(Geometria, '../fonts/geometria/Geometria-Thin',          100,   normal, ttf eot woff woff2 svg);
+
+
+
+

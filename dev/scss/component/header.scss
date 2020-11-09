@@ -1,0 +1,37 @@
+@import "variable";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.header {
+    .header__menu {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        display: flex;
+    }
+}
+
+.header>img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header>a {
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+    font-family: 'Lato', serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header>a:hover {
+    color: #313131;
+}

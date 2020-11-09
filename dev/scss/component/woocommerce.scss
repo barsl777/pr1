@@ -1,0 +1,60 @@
+.woocommerce-cart {
+  #main {
+    section {
+      .woocommerce {
+        border-top: 3px solid #8fae1b;
+        .woocommerce-notices-wrapper {
+          display: none;
+        }
+      }
+      .cart-subtotal, .woocommerce-shipping-totals {
+        display: none;
+      }
+    }
+  }
+}
+.woocommerce-checkout {
+  #main {
+    section {
+      input {
+        background-color: #fff;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        height: 28px;
+      }
+      .woocommerce-billing-fields {
+        h3 {
+            letter-spacing: 2.25px;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: black;
+            line-height: 1.5;
+            font-size: 30px;
+        }
+      }
+      #ship-to-different-address {
+        display: none;
+      }
+      .section_checkout-form_outer {
+        flex-wrap: wrap;
+        .woocommerce-NoticeGroup {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.woocommerce-page {
+  #main {
+    section {
+      padding: 30px 25px 0;
+      h1 {
+        padding-bottom: 10px;
+      }
+    }
+    .button {
+      background: #abc63b;
+      color: #ffffff;
+    }
+  }
+}
