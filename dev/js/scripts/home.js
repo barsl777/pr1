@@ -2,8 +2,11 @@ $(document).ready(function() {
     $('.item2').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
         fade: true,
+        accessibility: true,
+        respondTo: 'window',
+        arrows: true,
+        autoplay: true,
         asNavFor: '.item1'
     });
     $('.item1').slick({

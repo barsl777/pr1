@@ -51,7 +51,7 @@ body {
 }
 
 .item1>.item {
-    padding: 20px 10px 10px 20px;
+    padding: 15px;
 }
 
 .container__picture,
@@ -166,9 +166,6 @@ body {
 }
 
 @media (max-width:1200px) {
-    .item1 {
-        visibility: hidden;
-    }
     .item2 {
         margin: -35px 0px 0px -75px;
     }
