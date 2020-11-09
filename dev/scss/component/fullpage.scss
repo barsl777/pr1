@@ -1,4 +1,5 @@
 @import "variable";
+// Content page {
 .container__content {
     background-color: white;
     color: black;
@@ -121,6 +122,7 @@
     margin: 0px;
 }
 
+// }
 html.fp-enabled,
 .fp-enabled body {
     margin: 0;

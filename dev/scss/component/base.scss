@@ -11,20 +11,19 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
-.header {
-    .header__menu {
-        padding-bottom: 30px;
-        padding-top: 10px;
-        display: flex;
-    }
+// Header {
+.header__menu {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    display: flex;
 }
 
-.header>img {
+.header img {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.header>a {
+.header a {
     color: rgb(161, 161, 161);
     text-decoration: none;
     font-family: 'Lato', serif;
@@ -32,10 +31,12 @@ body {
     font-weight: bold;
 }
 
-.header>a:hover {
+.header a:hover {
     color: #313131;
 }
 
+// }
+// Content page {
 .container__content {
     background-color: white;
     color: black;
@@ -158,6 +159,91 @@ body {
     margin: 0px;
 }
 
+// }
+// Footer {
+.text_price {
+    padding-top: 10px;
+}
+
+.text_price>strike {
+    color: red;
+    font-size: 12px;
+}
+
+.text__bottom {
+    font-size: 14px;
+    color: #4AB840;
+    font-weight: bold;
+}
+
+.radiobutton_1,
+.radiobutton_2 {
+    font-size: 12px;
+}
+
+.b2 {
+    padding-top: 10px;
+}
+
+.container__list__head,
+.container__properties__head {
+    font-family: 'Lato', serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.properties {
+    margin-top: 28px;
+}
+
+form {
+    padding-top: 10px;
+}
+
+.button_right {
+    background: white;
+    padding: 4px 27px;
+    box-shadow: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button_right:hover {
+    background: rgb(202, 202, 202);
+}
+
+.button_centr {
+    color: white;
+    box-shadow: none;
+    margin-right: 10px;
+    background: #F58220;
+    padding: 4px 12px;
+    border-radius: 5px;
+    border-color: #F58220;
+}
+
+.button_centr:hover {
+    background: #c75d00;
+    border-color: #c75d00;
+}
+
+.button_left {
+    color: #F58220;
+    box-shadow: none;
+    margin-right: 10px;
+    background: white;
+    padding: 4px 14px;
+    border-radius: 5px;
+    border-color: #F58220;
+}
+
+.button_left:hover {
+    color: white;
+    background: #c75d00;
+    border-color: #c75d00;
+}
+
+// }
 @media (max-width:992px) {
     .container__content {
         display: flex;
