@@ -1,4 +1,163 @@
 @import "variable";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.header {
+    .header__menu {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        display: flex;
+    }
+}
+
+.header>img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header>a {
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+    font-family: 'Lato', serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header>a:hover {
+    color: #313131;
+}
+
+.container__content {
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+.item1 {
+    padding-top: 10px;
+}
+
+.item2 {
+    padding: 55px 0px 35px 25px;
+}
+
+.item1>.item {
+    padding: 20px 10px 10px 20px;
+}
+
+.container__picture,
+.head__range {
+    display: flex;
+}
+
+.container__picture {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+}
+
+.container__text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 50px;
+}
+
+.container__list__description,
+.head__bottom,
+.text_price,
+.head__up {
+    font-weight: bold;
+}
+
+.item1,
+.radiobutton_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    display: block;
+    width: 100%;
+}
+
+.radiobutton_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__list__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__list__content>.item {
+    padding-right: 70px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.head_ranging {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.head__bottom {
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+.list,
+.head__up>.item {
+    float: right;
+}
+
+.list,
+.bottom_text_description {
+    font-size: 15px;
+    color: #F58220;
+    font-weight: bold;
+}
+
+.list {
+    padding-top: 8px;
+}
+
+.container__description__text {
+    padding-top: 12px;
+    font-size: 15px;
+}
+
+.item>.container__list__description {
+    margin-top: -7px;
+}
+
+.head__review {
+    font-size: 14px;
+    color: #F58220;
+    font-weight: bold;
+    padding: 2px 0px 0px 28px;
+    margin: 0px;
+}
+
+.bottom_text_description {
+    margin: 0px;
+}
+
 @media (max-width:992px) {
     .container__content {
         display: flex;
