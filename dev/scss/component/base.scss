@@ -45,6 +45,13 @@ body {
 
 .item1 {
     padding: 10px 0px 0px 30px;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        padding: 60px;
+        border: 1px solid #e8caca;
+    }
 }
 
 .item2 {
