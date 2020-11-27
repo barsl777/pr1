@@ -1,14 +1,62 @@
-
-
-@media all and (min-width: 320px) {
-
-}
-
-
-@media all and (min-width: 768px) {
-
-}
-
-@media all and (min-width: 1280px) {
-
-}
+    @import "variable";
+    .hero h1 {
+        font-family: Mak;
+        font-style: normal;
+        position: absolute;
+        font-weight: 300;
+        color: #FFFFFF;
+    }
+    
+    .section_section__services h1 {
+        display: none;
+    }
+    
+    @media (min-width: 320px) and (max-width: 768px) {
+        .hero h1 {
+            padding: 120px 25px 0px 25px;
+            font-size: 32px;
+            line-height: 38px;
+            width: 281px;
+            height: 37px;
+        }
+        .hero img {
+            margin: 171px 25px 0px 25px;
+            width: 229px;
+            height: 37px;
+        }
+        .section_section__services h1 {
+            display: block;
+            color: #A88A8A;
+            font-family: Mak;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 38px;
+        }
+    }
+    
+    @media all and (min-width: 768px) {
+        .hero h1 {
+            font-size: 52px;
+            line-height: 62px;
+            width: 376px;
+            height: 60px;
+        }
+        .hero img {
+            width: 376px;
+            height: 60px;
+        }
+    }
+    
+    @media all and (min-width: 1500px) {
+        .hero h1 {
+            font-size: 102px;
+            line-height: 122px;
+            width: 737px;
+            height: 117px;
+        }
+        .hero img {
+            width: 737px;
+            height: 117px;
+        }
+    }

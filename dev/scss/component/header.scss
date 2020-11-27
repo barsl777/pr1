@@ -1,26 +1,64 @@
 @import "variable";
-// Header {
-.header__menu {
-    padding-bottom: 30px;
-    padding-top: 10px;
-    display: flex;
+header {
+    position: fixed;
+    background: rgba(0, 170, 238, 0.5);
 }
 
-.header img {
-    padding-left: 5px;
-    padding-right: 5px;
+@media all and (min-width: 320px) {
+    header {
+        position: relative;
+    }
+    .menu-triger {
+        margin: 17px 100px 0px 100px;
+        background: url(/img/image/menu.png) 0 0 repeat;
+        display: block;
+        width: 97px;
+        height: 21px;
+        position: absolute;
+    }
+    .menu-close {
+        background: url(/img/svg/close.svg) 0 0 repeat;
+        display: block;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 100;
+    }
+    .menu_inner {
+        background: #ffffff;
+        display: none;
+        position: absolute;
+        right: -110%;
+        top: 0;
+        width: 255px;
+        height: 568px;
+        box-sizing: border-box;
+        padding: 30px;
+        z-index: 9999;
+    }
+    .menu_inner ul {
+        margin: 0;
+        padding: 0;
+    }
+    .menu_inner li {
+        list-style: none;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .menu_inner li a {
+        font-size: 18px;
+        font-family: "Arial";
+        color: #777575;
+        line-height: 1.4;
+        text-decoration: none;
+    }
+    .body_pointer * {
+        cursor: pointer;
+    }
 }
 
-.header a {
-    color: rgb(161, 161, 161);
-    text-decoration: none;
-    font-family: 'Lato', serif;
-    font-size: 12px;
-    font-weight: bold;
-}
+@media all and (min-width: 768px) {}
 
-.header a:hover {
-    color: #313131;
-}
-
-// }
+@media all and (min-width: 1500px) {}

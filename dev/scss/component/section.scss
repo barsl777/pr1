@@ -1,0 +1,46 @@
+      @import "variable";
+      @media all and (min-width: 320px) {
+          .border {
+              width: 283px;
+              height: 1054px;
+              border: 1px solid #D8C594;
+              box-sizing: border-box;
+          }
+          .section__description h2 {
+              font-family: Mak;
+              font-style: normal;
+              font-weight: 300;
+              color: #A88A8A;
+              font-size: 22px;
+              line-height: 26px;
+          }
+          .section__description h3 {
+              font-family: Didact Gothic;
+              font-style: normal;
+              font-weight: normal;
+              font-size: $TextFont;
+              line-height: 16px;
+              text-align: justify;
+              color: $fontColorMain;
+          }
+          .button_section__services {
+              background: #A88A8A;
+              padding: 5px 10px;
+              color: #ffffff;
+              width: 151px;
+              height: 36px;
+              box-shadow: none;
+              font-family: Didact Gothic;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 16px;
+              text-align: justify;
+          }
+          .button_section__services:hover {
+              background: #7a5e5e;
+          }
+      }
+      
+      @media all and (min-width: 768px) {}
+      
+      @media all and (min-width: 1500px) {}
